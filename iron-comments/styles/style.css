@@ -1,11 +1,38 @@
 body {
+    background-color: rgb(25, 33, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
 }
 
 #form-container {
+    border: 1px solid rgb(67, 163, 230);
+    box-sizing: border-box;
     margin: auto;
+    max-width: 250px;
+    padding: 20px 40px 20px 20px;
+}
+
+#comment,
+input {
+    margin: 5px 0 10px 0;
+    max-width: 100%
+}
+
+.checkbox-label {
+    font-style: italic;
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 10px;
 }
